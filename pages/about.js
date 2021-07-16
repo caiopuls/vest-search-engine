@@ -63,7 +63,9 @@ function about() {
                 <br />
                 Estamos começando agora e aos poucos atualizando a plataforma 
                 com todas as funcionalidades. Faça parte desse movimento e salve o Vest 
-                na sua barra de favoritos para tornar-lo seu mecanismo de busca padrão!
+                na sua barra de favoritos para tornar-lo seu mecanismo de busca padrão! <br />
+                <br />
+                Fundador: Caio Garcia | @caiogarciap
                 </p>
             </div>
    
