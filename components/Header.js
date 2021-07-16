@@ -34,8 +34,7 @@ function Header() {
              max-w-3xl items-center">
                 <input 
                 ref={searchInputRef} 
-                valueOnChange={router.query.term}
-                placeHolder="Pesquisar" 
+                placeholder="Pesquisar" 
                 className="flex-grow w-full
                 focus:outline-none bg-transparent" 
                 type="text" 
