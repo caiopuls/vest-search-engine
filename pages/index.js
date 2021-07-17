@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Logo from '../assets/LogoTextBlue.svg'
 import LogoExtendWhite from '../assets/LogoExtendWhite.svg'
-import Logoa from '../'
 import { SearchIcon } from '@heroicons/react/outline'
 import Footer from '../components/Footer'
 
