@@ -13,7 +13,7 @@ function Search({ results }) {
     <div>
         <Head>
             <title>{router.query.term} - Pesquisa Vest</title>
-            <link rel="icon" href="https://raw.githubusercontent.com/VestSearch/vest-web/main/public/favicon.ico?token=AMONVVXXXZVJYYRFSY7I4G3A6ISEE" />
+            <link rel="icon" href="/favicon.png" />
         </Head>
 
         <Header />
