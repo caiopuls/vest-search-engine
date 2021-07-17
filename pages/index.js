@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Logo from '../assets/LogoTextBlue.svg'
 import LogoExtendWhite from '../assets/LogoExtendWhite.svg'
-
+import Logoa from '../'
 import { SearchIcon } from '@heroicons/react/outline'
 import Footer from '../components/Footer'
 
@@ -32,7 +32,7 @@ export default function Home() {
       <Head>
         <title>Vest</title>
         <meta name="description" content="Mecanismo de pesquisa para informações confiáveis e seguras." />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="{{ site.baseurl }}/favicon.ico" />
       </Head>
 
       <header className='flex w-full py-6 px-10 justify-between
