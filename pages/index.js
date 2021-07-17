@@ -31,7 +31,7 @@ export default function Home() {
       <Head>
         <title>Vest</title>
         <meta name="description" content="Mecanismo de pesquisa para informações confiáveis e seguras." />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <header className='flex w-full py-6 px-10 justify-between

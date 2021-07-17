@@ -13,7 +13,7 @@ function Search({ results }) {
     <div>
         <Head>
             <title>{router.query.term} - Pesquisa Vest</title>
-            <link rel="icon" href="/favicon.png" />
+            <link rel="icon" href="/favicon.ico" />
         </Head>
 
         <Header />
