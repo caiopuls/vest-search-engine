@@ -32,7 +32,7 @@ export default function Home() {
       <Head>
         <title>Vest</title>
         <meta name="description" content="Mecanismo de pesquisa para informações confiáveis e seguras." />
-        <link rel="icon" href="{{ site.baseurl }}/favicon.ico" />
+        <link rel="icon" href="https://raw.githubusercontent.com/VestSearch/vest-web/main/public/favicon.ico?token=AMONVVXXXZVJYYRFSY7I4G3A6ISEE" />
       </Head>
 
       <header className='flex w-full py-6 px-10 justify-between
