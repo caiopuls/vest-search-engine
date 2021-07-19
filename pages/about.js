@@ -41,7 +41,7 @@ function about() {
            </div>
          </header>
    
-         <div className="flex flex-col items-center mt-40 flex-grow w-4/5">
+         <div className="flex flex-col items-center justify-center flex-grow w-4/5">
                 <div className="flex space-x-2 items-center">
                 
                 <Link href="/">

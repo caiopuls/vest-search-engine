@@ -32,8 +32,8 @@ export default function Home() {
         <title>Vest</title>
         <meta name="description" content="Mecanismo de pesquisa para informações confiáveis e seguras." />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon-precomposed" href="/favicon.ico" />
-        <meta name="msapplication-TileImage" content="/favicon.ico"></meta>
+        <link rel="apple-touch-icon-precomposed" href="/favicon.png" />
+        <meta name="msapplication-TileImage" content="/favicon.png"></meta>
       </Head>
 
       <header className='flex w-full py-5 px-8 justify-between
