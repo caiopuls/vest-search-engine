@@ -69,7 +69,7 @@ export default function Home() {
           alt='Vest'
         />
 
-        <p className="pt-5 text-[#606774] font-medium text-lg text-center font-roboto md:font-Roboto">Seja bem-vindo ao Vest. Pesquise com fontes confiáveis.</p>
+        <p className="pt-5 text-gray-700 font-medium text-lg text-center font-roboto md:font-Roboto">Seja bem-vindo ao Vest. Pesquise com fontes confiáveis.</p>
         
         <div className="flex w-full mt-5 hover:shadow-lg
         focus-within:shadow-lg max-w-md rounded-full border
