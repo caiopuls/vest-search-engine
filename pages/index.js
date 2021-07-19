@@ -34,7 +34,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className='flex w-full py-6 px-10 justify-between
+      <header className='flex w-full py-5 px-8 justify-between
       text-sm text-gray-700'>
         <div className='flex space-x-4 items-center'>
           <Image
@@ -59,7 +59,7 @@ export default function Home() {
         </div>
       </header>
 
-      <form className="flex flex-col items-center m-48 flex-grow w-4/5">
+      <form className="flex flex-col items-center justify-center flex-grow w-4/5">
         <Image
           src={Logo}
           height={98}
