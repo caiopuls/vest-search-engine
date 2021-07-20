@@ -8,7 +8,7 @@ import {
 
 function HeaderOptions() {
     return (
-        <div className="flex w-full text-gray-700
+        <div className="flex w-full text-[#B9D4FF]
         justify-evenly text-base lg:justify-start lg:space-x-36
         lg:pl-52 border-b">
 
@@ -18,11 +18,11 @@ function HeaderOptions() {
                 <HeaderOption Icon={SearchIcon}
                 title="Todas" selected /> {/* Todas */}
                 <HeaderOption Icon={BeakerIcon}
-                title="Em breve"  /> {/* Artigos */}
+                title="Artigos"  /> {/* Artigos */}
                 <HeaderOption Icon={NewspaperIcon}
-                title="Em breve"  /> {/* Notícias */}
+                title="Notícias"  /> {/* Notícias */}
                 <HeaderOption Icon={PlayIcon}
-                title="Em breve"  /> {/* Vídeos */}
+                title="Vídeos"  /> {/* Vídeos */}
             </div>
             
         </div>

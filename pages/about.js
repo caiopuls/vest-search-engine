@@ -17,7 +17,7 @@ function about() {
            <link rel="icon" href="/favicon.ico" />
          </Head>
    
-         <header className='flex w-full py-6 px-10 justify-between
+         <header className='flex w-full py-5 px-8 justify-between
          text-sm text-gray-700'>
            <div className='flex space-x-4 items-center'>
              <Image
@@ -57,15 +57,8 @@ function about() {
                 </div>          
 
                 <p className="flex flex-col items-center pt-10 text-white text-lg max-w-2xl mx-auto">
-                O Vest search é um mecanismo de pesquisa criado com o intuito de ajudar a diminuir a disseminação 
-                de informação falsa pela internet com um sistema que seleciona somente sites, artigos, notícias e 
-                vídeos verificados e confiáveis. <br />
-                <br />
-                Estamos começando agora e aos poucos atualizando a plataforma 
-                com todas as funcionalidades. Faça parte desse movimento e salve o Vest 
-                na sua barra de favoritos para tornar-lo seu mecanismo de busca padrão! <br />
-                <br />
-                Fundador: Caio Garcia | @caiogarciap
+                
+                Créditos: Caio Garcia | @caiogarciap
                 </p>
             </div>
    

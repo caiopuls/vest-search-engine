@@ -17,7 +17,7 @@ function contact() {
            <link rel="icon" href="/favicon.ico" />
          </Head>
    
-         <header className='flex w-full py-6 px-10 justify-between
+         <header className='flex w-full py-5 px-8 justify-between
          text-sm text-gray-700'>
            <div className='flex space-x-4 items-center'>
              <Image
@@ -60,9 +60,9 @@ function contact() {
                 Gostaria de fazer uma sugestão? Quer trabalhar conosco? 
                 Ou ficar por dentro das novidades e atualizações do Vest?
                 <br />
-                <br />Redes sociais: @vestsearch
+                <br />Redes sociais: no
                 <br />
-                <br />E-mail: vestcontato@gmail.com
+                <br />E-mail: emailteste
                 </p>
             </div>
    

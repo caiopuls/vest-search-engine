@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { useRouter, router } from "next/router"
-import LogoExtendBlue from '../assets/LogoExtendBlue.svg'
+import LogoExtendWhite from '../assets/LogoExtendWhite.svg'
 import { XIcon, SearchIcon } from '@heroicons/react/solid'
 import { useRef } from "react"
 
@@ -20,32 +20,32 @@ function Header() {
     }
 
     return (
-        <header className="sticky top=0 bg-white">
+        <header className="sticky top=0 bg-[#3573DA] shadow-lg">
             <div className="flex w-full p-6 items-center">
             <Image 
-                src={LogoExtendBlue}
+                src={LogoExtendWhite}
                 alt="Vest Logo"
                 height={64}
                 width={120}
                 onClick={() => router.push("/")}
                 className="cursor-pointer"
             />
-            <form className="flex flex-grow px-6 py-3 ml-10 mr-5 bg-[#EBF2FF] border border-[#C1D3E9] rounded-full
-             max-w-3xl items-center">
+            <form className="flex flex-grow px-6 py-3 ml-10 mr-5 bg-transparent border-b
+             max-w-3xl items-center"  onSubmit={search}>
                 <input 
                 ref={searchInputRef} 
-                placeholder="Pesquisar" 
+                placeholder="O que você está procurando?" 
                 className="flex-grow w-full
-                focus:outline-none bg-transparent" 
+                focus:outline-none bg-transparent text-white placeholder-white focus:placeholder-white" 
                 type="text" 
                 />
 
-                <XIcon className="h-7 text-[#687386] cursor-pointer transition
+                <XIcon className="h-7 text-white cursor-pointer transition
                 duration-100 transform hover:scale-110 pr-4"
                 onClick={() => (searchInputRef.current.value = "")} />
 
 
-                <SearchIcon className="h-6 text-[#687386] hidden sm:inline-flex border-l-2 pl-4 border-gray-400" />
+                <SearchIcon className="h-6 text-white hidden sm:inline-flex border-l-2 pl-4 border-white" />
                 <button hidden type="submit" onClick={search}>
                     Pesquisar
                 </button>

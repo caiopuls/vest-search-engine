@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Logo from '../assets/LogoTextBlue.svg'
 import LogoExtendWhite from '../assets/LogoExtendWhite.svg'
 import { SearchIcon } from '@heroicons/react/outline'
 import Footer from '../components/Footer'
@@ -8,7 +7,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useRef } from "react"
 import { useRouter } from "next/router"
-
 
 export default function Home() {
   const router = useRouter();
@@ -61,40 +59,28 @@ export default function Home() {
         </div>
       </header>
 
-      <form className="flex flex-col items-center justify-center flex-grow w-4/5">
-        <Image
-          src={Logo}
-          height={98}
-          width={164}
-          alt='Vest'
-        />
-
-        <p className="pt-5 text-gray-700 font-medium text-lg text-center font-roboto md:font-Roboto">Seja bem-vindo ao Vest. Pesquise com fontes confiáveis.</p>
+      <form className="flex flex-col items-center
+       justify-center flex-grow w-4/5" onSubmit={search}>
         
-        <div className="flex w-full mt-5 hover:shadow-lg
-        focus-within:shadow-lg max-w-md rounded-full border
-        border-[#C1D3E9] px-5 py-4 items-center sm:max-w-xl
-        lg:max-w-2xl bg-[#EBF2FF] ">
-          <SearchIcon className='h-6 mr-3 text-gray-500' />
+
+        <p className="pt-5 text-white font-medium text-2xl text-center font-roboto md:font-Roboto">Seja bem-vindo ao Vest. Pesquise com fontes confiáveis.</p>
+        
+        <div className="flex w-full mt-10 hover:shadow-lg
+        focus-within:shadow-lg max-w-md
+        border-b px-5 py-4 items-center sm:max-w-xl
+        lg:max-w-2xl bg-transparent ">
+          
           <input 
           ref={searchInputRef}
-          placeholder="Pesquisar"
           type="text" 
-          className='flex-grow focus:outline-none bg-transparent' 
+          className='flex-grow focus:outline-none bg-transparent text-white placeholder-white focus:placeholder-white'
+          placeholder="O que você está procurando?" 
           />
+          <SearchIcon className='h-6 mr-3 text-white' />
         </div>
         
         <div className="flex flex-col w-1/2 space-y-2 justify-center mt-8
         sm:space-y-0 sm:flex-row sm:space-x-4">
-
-          <button onClick={search} className="btn">Pesquisar com Vest</button>
-
-          {/*Próxima atualização = CATEGORIAS DE PESQUISA */}
-
-          {/*<button onClick={search} className="btn">Todas</button>*/}
-          {/*<button onClick={search} className="btn">Artigos</button>*/}
-          {/*<button onClick={search} className="btn">Notícias</button>*/}
-          {/*<button onClick={search} className="btn">Vídeos</button>*/}
 
         </div>
       </form>
